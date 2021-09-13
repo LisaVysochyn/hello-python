@@ -1,0 +1,16 @@
+print('FIRST EXPRESSION')
+print(f'expressions: 355/113*(1-0.0003/3522) \nresult: {355/113*(1-0.0003/3522)}\n')
+print(f'expressions: int(355/113)*(1-0.0003/3522) \nresult: {int(355/113)*(1-0.0003/3522)}\n')
+print(f'expressions: 355/113*int(1-0.0003/3522) \nresult: {355/113*int(1-0.0003/3522)}\n')
+print(f'expressions: complex(355/113*(1-0.0003/3522)) \nresult: {complex(355/113*(1-0.0003/3522))}\n')
+
+print('\nSECOND EXPRESSION')
+print(f'expressions: 22/17 + 37/47 + 88/83 \nresult: {22/17 + 37/47 + 88/83}\n')
+print(f'expressions: int(22/17) + 37/47 + 88/83 \nresult: {int(22/17) + 37/47 + 88/83}\n')
+print(f'expressions: 22/17 + int(37/47) + 88/83 \nresult: {22/17 + int(37/47) + 88/83}\n')
+print(f'expressions: 22/17 + 37/47 + int(88/83) \nresult: {22/17 + 37/47 + int(88/83)}\n')
+print(f'expressions: complex(22/17) + 37/47 + 88/83 \nresult: {complex(22/17) + 37/47 + 88/83}\n')
+
+print('\nTHIRD EXPRESSION')
+print(f'expressions: (553/312)**2 \nresult: {(553/312)**2}\n')
+print(f'expressions: int(553/312)**2 \nresult: {int(553/312)**2}\n')
