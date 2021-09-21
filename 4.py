@@ -1,5 +1,5 @@
 from math import pi
 
-radius = input()
-area = pi*radius**2
+radius = float(input("please enter radius: "))
+area = round(pi*radius**2, 2)
 print(area)
